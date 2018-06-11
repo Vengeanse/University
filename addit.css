@@ -1,0 +1,88 @@
+.img{
+	margin: 0 auto;
+	padding: 0;
+	background: url(images/img02.jpg) repeat-x left top;
+}
+
+.Flexcontainer
+{
+	margin:auto;
+	overflow-x: hidden;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #0A0A0A url(images/img01.gif) repeat left top;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #787878;
+}
+
+h2.main {
+	margin: 0;
+	padding: 20;
+	font-weight: normal;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+input {
+	align-items: center;
+	margin: auto;
+	margin-top: 12px;
+	display: block;
+	font-size: 14px;
+	background: #FFFFFF;
+	border-color: #80ffff;
+}
+
+button {
+	margin: auto;
+	align-items: center;
+	margin-top: 12px;
+	color: #80ffff;
+	background: #000000;
+	border-color: #80ffff;
+	align-content: center;
+	display: block;
+}
+
+.block
+{
+	float: left;
+	width: 300px;
+	height: 500px;
+	background-color: #000000;
+	margin: 10px;
+	padding: 10px;
+}
+
+.block img
+{
+	width: 100%;
+}
+.block h1
+{
+	font-size: 15px;
+	color: #80ffff;
+}
+
+.block h2
+{
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+.block p
+{
+	font-size: 12px;
+	color: #BBBBBB;
+}
+
+.items
+{
+	display: inline-flex;
+	background-color: #000000;	
+}
